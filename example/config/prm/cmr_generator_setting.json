@@ -1,0 +1,18 @@
+{
+  "model_type": "CMR_generator",
+  "data_set_name": "prm",
+  "initial_ranker": "lambdaMART",
+  "lr": 1e-4,
+  "l2_reg": 1e-4,
+  "batch_size": 16,
+  "max_time_len": 30,
+  "metric_scope": [5, 10, 15, 20],
+  "eb_dim": 16,
+  "hidden_size": 64,
+  "epoch_num": 20,
+  "save_dir": "./model/",
+  "data_dir": "./Data/prm/",
+  "evaluator_path": "./model/save_model_prm/30/202410121449_lambdaMART_EGR_evaluator_16_0.0002_0.0001_64_16_0.8_1.0",
+  "controllable": true,
+  "acc_prefer": 1
+}
